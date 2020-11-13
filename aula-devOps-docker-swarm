@@ -1,0 +1,19 @@
+1. Instalar docker e docker-compose
+2.Criar uma AMI's (imagem AWS) para usar o template no clauser
+3.Configurar os grupos de segurança da AWS para liberar acesso ao docker swarm
+4.no nó MASTER executar o comando docker swarm init
+5. registrar on WORKER com referência para o nó MASTER
+6. Publicar a aplicação
+7.Subir uma instância do Jenkins
+8. Instalar plugin do Jenkins para deploy
+9.Fazer pipeline  para deploy da aplicação
+10.Fazer testes (enjoy)
+
+get-docker
+#instalar 
+#roda o comando
+curl -fsSL https://get.docker.com -o get-docker.sh
+#permissao
+chmod +x sh get-docker.sh
+sh get-docker.sh
+
