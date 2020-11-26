@@ -7,3 +7,9 @@
 ##### Encontra todas as rotas de localização do executável
 ##### which -a arquivo  
 
+
+## editar uma arquivo sem editor usando o shell
+cat > nome_do_arquivo.txt <<EOF
+
+
+
