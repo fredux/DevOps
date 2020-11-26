@@ -37,6 +37,9 @@ docker stats id_ou_apelido
 ### Estamos informando que a porta 8080 no Host é aberta e deve ser mapeada na porta 80 do container
 docker run -it -p 8080:80 ubuntu
 docker run -it -p 8080:80 nginx
+## Criar container que auto destroi ao encerrar a sessão
+docker run -it --rm -p 8080:80 nginx /bin/bash
+
 
 
 
