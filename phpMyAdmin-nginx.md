@@ -5,7 +5,6 @@ sudo vi /etc/nginx/sites-available/phpmyadmin.local
 ## adicione as seguintes linhas
 server {
     listen 80;
-   # listen [::]:80 default_server ipv6only=on;
 
     root /usr/share/phpmyadmin;
     index index.php index.html index.htm;
@@ -25,6 +24,7 @@ server {
         include fastcgi_params;
     }
 }
+
 ## Salve o arquivo e crie um link simbólico
 sudo ln -s /etc/nginx/sites-available/phpmyadmin.local /etc/nginx/sites-enabled/
 
