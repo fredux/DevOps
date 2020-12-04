@@ -1,3 +1,6 @@
+## link de um site para instalação do nginx 
+https://www.digitalocean.com/community/tutorials/como-instalar-o-nginx-no-ubuntu-18-04-pt
+
 ## install phpMyAdmin
 apt install phpmyadmin
 ## Cria um arquivo do virtual host no diretorio /etc/nginx/sites-available por exemplo
