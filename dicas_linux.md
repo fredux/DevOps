@@ -1,3 +1,6 @@
+## Como usar chave para autenticar em servidor ssh
+https://salsa.debian.org/kretcheu/tutoriais/-/blob/master/copiar.chave.md
+
 ## Recuperar senha root
 ## Comandos systemctl
 SYSTEMD
