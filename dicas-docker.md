@@ -44,6 +44,7 @@ docker run -it -p 8080:80 nginx
 docker run -it --rm -p 8080:80 nginx /bin/bash
 ## Remove imagens
 docker rmi image_id_1 image_id_2 image_id_n
+docker rmi $(docker images -q) -f (remeove todas images)
 
 
 
