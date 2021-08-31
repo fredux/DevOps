@@ -25,10 +25,13 @@ docker run nome_da_imagem
 docker exec -it id_ou_apelido comando
 ## Mostra os container que estao em atividade
 docker ps
+docker ps -a  (mostra todos inclusive os que já foramo encerrados)
+docker ps -a -q (mostra os id do container)
 ## Mostra os container que estao em atividade e os que estão parados
 docker ps-a
 ## Remover um container
 docker rm id_ou_apelido
+docker rm $(docker ps -a -q) -f (remove todos container)
 ## Colocar apelidos nos containers 
 docker run --name ubuntinho ubuntu
 ## Informações de uso de Hardware do containe 
